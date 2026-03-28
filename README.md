@@ -37,25 +37,6 @@ Atualmente, o projeto já conta com:
 🛠️ Tecnologias utilizadas
 HTML5
 CSS3
-📂 Estrutura do projeto
-ART-Burger/
-│
-├── index.html
-├── style.css
-├── script.js
-└── Imagens/
-    ├── logotipo.jpg
-    ├── Abaporu.jpg
-    ├── Gaudí.jpg
-    ├── Pickles.jpg
-    ├── Mona Lisa.jpg
-    ├── Monet.jpg
-    ├── coca lata.webp
-    ├── guarana lata.jpg
-    └── agua com gas.jpg
-🖥️ Layout da página
-
-O site foi pensado para apresentar os produtos de forma simples, organizada e visualmente agradável.
 
 Estrutura atual:
 Cabeçalho com banner
@@ -68,11 +49,6 @@ Rodapé
 
 Em breve irei adicionar prints da interface aqui 📷
 
-Você pode colocar depois assim:
-
-## 📸 Preview
-
-![Preview do Projeto](./Imagens/preview.png)
 🔄 Próximas melhorias
 
 Como o projeto ainda está em andamento, algumas melhorias já estão planejadas:
