@@ -1,0 +1,158 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header{
+    background-color: #eaff00;
+    color: #333;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Define imagem de banner da pagina */
+.banner{
+    background-image: url(Imagens/logotipo.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.banner-content{
+    width: 80%;
+}
+
+.banner h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.banner p{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+nav a{
+    color: #333;
+    text-decoration: none;
+    margin: 0.1rem;
+    padding: 0.5rem 1rem;
+    background-color: #eaff00;
+    border-radius: 4px;
+}
+
+nav a:hover{
+    background-color: #bbcb05;
+}
+
+main{
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.produto{
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.produto img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.preco{
+    font-weight: bold;
+    color: #bbcb05;
+    margin-bottom: 1rem;
+}
+
+.adicionar{
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.adicionar:hover{
+    background-color: #369139;
+}
+
+#Pedido{
+    background-color: #e0e0e0;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+}
+
+#lista-pedido{
+    list-style: none;
+    padding: 0;
+}
+
+#Finalizar-Pedido{
+    background-color: #4caf50;
+    border: none;
+    color: #333;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+#Finalizar-Pedido:hover{
+    background-color: #369139;
+}
+#Contato{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.redes-sociais a{
+    background-color: #eaff00;
+    color: #333;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    margin: 0.5rem;
+}
+
+.redes-sociais a:hover{
+    background-color: #bbcb05;
+}
+
+footer{
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+}
+
+@media (min-width: 768px){
+    main{
+        width: 60%;
+    }
+
+    .categoria{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1rem;
+    }
+}
